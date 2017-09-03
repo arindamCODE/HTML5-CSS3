@@ -1,8 +1,9 @@
 body
 {
-	height: 2000px;
-	/* margin: 0px; */
-	background-color: grey;
+	
+	margin: 0px;
+	height: 850px;
+	background-color: rgb(234, 235, 253);
 }
 
 .header
@@ -14,6 +15,7 @@ body
  	position: fixed;
  	float: left;
  	margin: auto;
+ 	box-shadow: 5px 5px 1px black;
 }
 
 p
@@ -28,18 +30,13 @@ line
 	border-right: 1px solid #9e9a9a;
 }
 
-.sticky {
-  position: fixed;
-  z-index: 9999;
-  width: 100%;
-}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding-left: 20px;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
 }
 
 li {
@@ -47,6 +44,78 @@ li {
 }
 
 li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.header1
+{
+	background-color: white;
+	float: left;
+	height: 15px;
+}
+
+#content
+{
+	height: 100px;
+	width: 1320px;
+	background-color: #dedeec;
+	position: absolute;
+	top: 130px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	box-shadow: 5px 5px 1px black;
+}
+
+#para
+{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	text-shadow: 1px 1px 0px black;
+
+}
+
+footer
+{
+	/* background-color: white;
+	width: 100%;
+	padding: 60px 0px; */
+
+
+
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background-color: #c7c0c0;
+
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #c7c0c0;
+}
+
+footer li {
+    float: right;
+}
+
+footer li a {
     display: block;
     color: white;
     text-align: center;
@@ -56,23 +125,36 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+footer li a:hover {
     background-color: #111;
+
+
 }
 
-.header1
+footer aside
 {
-	background-color: white;
-	float: left;
+	background: #999; 
 }
 
-#content
+img 
 {
-	height: 200px;
-	width: 1320px;
-	background-color: white;
-	position: absolute;
-	top: 235px;
-	font-family: 'Oswald', sans-serif;
-	font-size: 28px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper
+{
+    float:right;
+    background-color: white;
+}
+
+.footer2{
+    float:left;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.header img
+{
+    box-shadow: none;   
 }
