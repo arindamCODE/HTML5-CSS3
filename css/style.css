@@ -10,7 +10,7 @@ body
 
 /* Designing the class header */
 
-.header
+header
 {
 	
 
@@ -30,14 +30,6 @@ p
 	background-color: white;
 	margin-right: 1150px;
 }
-
-/* Designing the element line */
-
-line
-{
-	border-right: 1px solid #9e9a9a;
-}
-
 /* Designing the element unordered list */
 
 ul {
@@ -82,7 +74,7 @@ li a:hover {
 
 /* Designing the id content */
 
-#content
+main
 {
 	height: 100px;
 	width: 1320px;
@@ -96,7 +88,7 @@ li a:hover {
 
 /* Designing the id para */
 
-#para
+article
 {
 	
 	font-family: 'Oswald', sans-serif;
@@ -158,12 +150,6 @@ footer li a:hover {
 
 }
 
-/* Designing the aside that belogs to the footer element */
-
-footer aside
-{
-	background: #999; 
-}
 
 /* Designing the img element */
 
@@ -191,7 +177,8 @@ img
 
 /* Designing the img element that belongs to the header element */
 
-.header img
+header img
 {
-    box-shadow: none;   
+    box-shadow: none;
+    border-radius: 0px;
 }
